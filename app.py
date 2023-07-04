@@ -1,12 +1,9 @@
 import streamlit as st
 import mysql.connector
 import pandas as pd
-import numpy as np
-import time
-import email, smtplib, ssl
+import  smtplib
 from git import Repo
 from datetime import datetime
-from pprint import pprint
 from email import encoders
 from email.mime.base import MIMEBase
 from email.mime.multipart import MIMEMultipart
